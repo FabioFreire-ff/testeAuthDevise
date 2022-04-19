@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :trabalhadors
   devise_for :clientes, controllers: {
     sessions: 'clientes/sessions'
   }
